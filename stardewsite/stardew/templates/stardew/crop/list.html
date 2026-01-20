@@ -4,16 +4,30 @@
 
 {% block content %}
 <h1>Crops</h1>
-<!-- Haven't decided if I will do the season as a header or if I will just list it with each crop -->
-<h2>Spring</h2>
 <ul>
+<!-- Headers for the season --->
+    <h2>Spring</h2>
+{% for crop in crops %}
+    <li>
+        <!-- did not list the season in here since it's listed above, but it is stored in the model just in case -->
+        <strong>{{ crop.name }}</strong><br> Growth Time: {{ crop.growth_time }} days | Sell Price: {{ crop.sell_price }}g
+    </li>
+
+{% empty %}
+    <li>No crops available.</li>
+{% endfor %}
+<!-- </ul> **************************************************************unfinished html, missing proper view and data as of 1/20 
+Summer crops
+<ul>
+    <h2>Summer</h2>
 {% for crop in crops %}
     <li>
         <strong>{{ crop.name }}</strong><br>Season: {{ crop.season }} | 
         Growth Time: {{ crop.growth_time }} days | Sell Price: {{ crop.sell_price }}g
     </li>
+
 {% empty %}
     <li>No crops available.</li>
 {% endfor %}
-</ul>
+</ul> -->
 {% endblock %}
