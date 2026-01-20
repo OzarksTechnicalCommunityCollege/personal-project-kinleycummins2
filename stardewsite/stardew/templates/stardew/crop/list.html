@@ -1,0 +1,17 @@
+{% extends "stardew/base.html" %}
+
+{% block title %}Spring Crops{% endblock %}
+
+{% block content %}
+<h1>Spring Crops</h1>
+<ul>
+{% for crop in crops %}
+    <li>
+        <strong>{{ crop.name }}</strong> | {{ crop.season }} | 
+        {{ crop.growth_time }} days | {{ crop.sell_price }}g
+    </li>
+{% empty %}
+    <li>No crops available.</li>
+{% endfor %}
+</ul>
+{% endblock %}

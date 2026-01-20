@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <title>{% block title %}Stardew Crops{% endblock %}</title>
+    <link href="{% static 'css/stardew.css' %}" rel="stylesheet">
+</head>
+<body>
+    <div id="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <div id="sidebar">
+        <h2>Stardew Valley Helper</h2>
+        <!-- where ill put a description later if i keep this sidebar -->
+        <p></p>
+    </div>
+</body>
+</html>
