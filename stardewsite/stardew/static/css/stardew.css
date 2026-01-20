@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: rgb(157, 200, 224);
 }
 
 #content {
@@ -11,6 +12,6 @@ body {
 #sidebar {
     float: right;
     width: 25%;
-    background-color: #a6d9ed;
+    background-color: #6695ab;
     padding: 10px;
 }

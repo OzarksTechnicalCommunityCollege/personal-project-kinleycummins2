@@ -3,12 +3,14 @@
 {% block title %}Spring Crops{% endblock %}
 
 {% block content %}
-<h1>Spring Crops</h1>
+<h1>Crops</h1>
+<!-- Haven't decided if I will do the season as a header or if I will just list it with each crop -->
+<h2>Spring</h2>
 <ul>
 {% for crop in crops %}
     <li>
-        <strong>{{ crop.name }}</strong> | {{ crop.season }} | 
-        {{ crop.growth_time }} days | {{ crop.sell_price }}g
+        <strong>{{ crop.name }}</strong><br>Season: {{ crop.season }} | 
+        Growth Time: {{ crop.growth_time }} days | Sell Price: {{ crop.sell_price }}g
     </li>
 {% empty %}
     <li>No crops available.</li>
