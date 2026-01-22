@@ -1,12 +1,13 @@
 {% extends "stardew/base.html" %}
 
-{% block title %}Spring Crops{% endblock %}
+{% block title %}Crops{% endblock %}
 
 {% block content %}
 <h1>Crops</h1>
-<ul>
+<br>
 <!-- Headers for the season --->
-    <h2>Spring</h2>
+<h2>Spring</h2>
+<ul>
 {% for crop in crops %}
     <li>
         <!-- did not list the season in here since it's listed above, but it is stored in the model just in case -->
@@ -16,10 +17,10 @@
 {% empty %}
     <li>No crops available.</li>
 {% endfor %}
-<!-- </ul> **************************************************************unfinished html, missing proper view and data as of 1/20 
-Summer crops
+</ul> <!--**************************************************************unfinished html, missing proper view and model data as of 1/20  -->
+<!-- Summer crops -->
+<h2>Summer</h2>
 <ul>
-    <h2>Summer</h2>
 {% for crop in crops %}
     <li>
         <strong>{{ crop.name }}</strong><br>Season: {{ crop.season }} | 
@@ -29,5 +30,5 @@ Summer crops
 {% empty %}
     <li>No crops available.</li>
 {% endfor %}
-</ul> -->
+</ul>
 {% endblock %}
