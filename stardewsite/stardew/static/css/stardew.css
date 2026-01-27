@@ -72,9 +72,6 @@ h2 {
 }
 
 /* ---------- Season colors ---------- */
-.season-card h2 {
-    /* assign colors based on season */
-}
 
 .season-card.spring h2 { background-color: #66bb6a; } /* spring */
 .season-card.summer h2 { background-color: #e85c5c; } /* summer */
