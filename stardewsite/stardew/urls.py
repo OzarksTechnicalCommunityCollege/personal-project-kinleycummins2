@@ -5,5 +5,6 @@ app_name = 'stardew'
 # Defining the url pattern for the app 
 urlpatterns = [
     # path for the crops
-    path('crops/', views.crop_list, name='crop_list'),
+    path('crops/', views.crop_list, name='crop-list'),
+    path('crops/add/', views.add_crop, name='add-crop'),
 ]

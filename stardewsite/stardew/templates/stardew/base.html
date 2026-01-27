@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 {% load static %}
 <html>
+
 <head>
     <title>{% block title %}Stardew Crops{% endblock %}</title>
     <link href="{% static 'css/stardew.css' %}" rel="stylesheet">
 </head>
+
 <body>
-    <div id="content">
-        {% block content %}
-        {% endblock %}
-    </div>
+    <!-- Added navigation -->
+    <nav>
+        <a href="{% url 'stardew:crop-list' %}">View Crops</a>
+        <a href="{% url 'stardew:add-crop' %}">Add Crop</a>
+    </nav>
 
     <div id="sidebar">
         <h2>Stardew Valley Helper</h2>
         <!-- where I'll put a description later if I keep this sidebar -->
         <p></p>
     </div>
+    <div id="content">
+        {% block content %}
+        {% endblock %}
+    </div>
 </body>
+
 </html>

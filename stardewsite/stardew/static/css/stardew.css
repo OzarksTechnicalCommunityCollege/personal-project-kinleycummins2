@@ -1,17 +1,167 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: rgb(157, 200, 224);
+/* ---------- Base Styles ---------- */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0f7fa; /* soft sky blue background */
+    color: #1b3b36; /* dark forest green text */
+    line-height: 1.6;
+}
+
+/* ---------- Navigation ---------- */
+nav {
+    background-color: #1b5e20; /* dark green */
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: #e0f7fa; /* sky blue text */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #66bb6a; /* lighter green hover */
+}
+
+/* ---------- Layout ---------- */
 #content {
-    float: left;
+    padding: 2rem;
     width: 70%;
+    float: left;
 }
 
 #sidebar {
-    float: right;
     width: 25%;
-    background-color: #6695ab;
-    padding: 10px;
+    float: right;
+    background-color: #b2dfdb; /* soft teal/blue-green */
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Clear floats */
+body::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* ---------- Headings ---------- */
+h1 {
+    font-size: 2rem;
+    color: #1b5e20; /* dark green */
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    color: #e0f7fa; /* sky blue text on headers */
+}
+
+/* ---------- Season colors ---------- */
+.season-card h2 {
+    /* assign colors based on season */
+}
+
+.season-card.spring h2 { background-color: #66bb6a; } /* spring */
+.season-card.summer h2 { background-color: #e85c5c; } /* summer */
+.season-card.fall h2 { background-color: #d8d13f; }   /* fall */
+.season-card.winter h2 { background-color: #4dd0e1; } /* winter */
+
+/* ---------- Crop cards ---------- */
+.season-card {
+    background-color: #e0f7fa; /* light sky blue */
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.season-card ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.season-card ul li {
+    background-color: #b2dfdb; /* soft teal */
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-left: 4px solid #1b5e20; /* dark green accent */
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.season-card ul li strong {
+    color: #1b3b36;
+}
+
+/* ---------- Forms ---------- */
+form {
+    background-color: #b2dfdb; /* soft teal card */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: 2rem auto;
+}
+
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #0288d1; /* bright blue border */
+}
+
+button {
+    background-color: #1b5e20; /* dark green */
+    color: #e0f7fa; /* sky blue text */
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #66bb6a; /* bright green hover */
+}
+
+/* ---------- Sidebar ---------- */
+#sidebar p {
+    margin-top: 1rem;
+    color: #1b3b36;
+
+}
+#sidebar {
+        width: 20%;
+    
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+    #content, #sidebar {
+        width: 100%;
+        float: none;
+        margin-bottom: 2rem;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
 }
