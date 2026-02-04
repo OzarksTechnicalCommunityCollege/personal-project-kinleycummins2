@@ -2,9 +2,10 @@
 # CSC_161_Personal_Project
 # Stardew Valley Helper App - Current Functionality
 
-This is a companion app for *Stardew Valley*, designed to help organize and display information about the game. Currently, the app allows users to:
+This app is a simple helper tool for tracking seasonal items in *Stardew Valley*. Currently, it allows you to:
 
-- **View all crops** sorted by season (Spring, Summer, Fall, Winter)  
-- **Add new crops** via a form (name, growth time, sell price, and season)  
+- View items sorted by season (Spring, Summer, Fall, Winter)
+- See items grouped by category: Farming, Foraging, and Fishing
+- View important details for each item, such as growth time (for crops) and sell price
 
-**NOTE:** The current “Add Crop” form functionality may not reflect how a typical Stardew companion app would work in real life (since crops are usually pre-defined). However, this form-based approach was intentionally implemented to demonstrate mastery of the Django concept for Module 2. Future iterations could replace the form with a community-center-style checklist or pre-loaded crop data for a more practical user experience.
+**NOTE:** Does not yet contain all of the items for each category.
