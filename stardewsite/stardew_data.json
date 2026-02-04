@@ -1,0 +1,1828 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-02-04T19:02:44.538Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Spring",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-02-04T19:02:47.717Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Summer",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-02-04T19:02:50.025Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Fall",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-02-04T19:02:52.257Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Winter",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-02-04T19:07:09.636Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Parsnip",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-02-04T19:07:23.954Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Blue Jazz",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-02-04T19:07:40.134Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Cauliflower",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-02-04T19:08:10.371Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Garlic",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-02-04T19:08:23.620Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Kale",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-02-04T19:08:36.949Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Potato",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-02-04T19:09:01.654Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Tulip",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-02-04T19:09:42.805Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Carrot",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-02-04T19:10:21.286Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Coffee Bean",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-02-04T19:10:40.410Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Green Bean",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-02-04T19:10:56.375Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Strawberry",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-02-04T19:12:10.166Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Melon",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-02-04T19:12:26.017Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Poppy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-02-04T19:12:41.287Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "Radish",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-02-04T19:12:59.023Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Red Cabbage",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-02-04T19:13:16.775Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "16",
+    "object_repr": "Starfruit",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-02-04T19:13:36.181Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "17",
+    "object_repr": "Summer Spangle",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-02-04T19:13:50.288Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "18",
+    "object_repr": "Wheat",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-02-04T19:14:05.678Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "19",
+    "object_repr": "Blueberry",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-02-04T19:14:22.480Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "20",
+    "object_repr": "Coffee Bean",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-02-04T19:14:42.131Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "21",
+    "object_repr": "Corn",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-02-04T19:14:54.409Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "22",
+    "object_repr": "Hops",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-02-04T19:15:23.898Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "23",
+    "object_repr": "Hot Pepper",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-02-04T19:15:35.116Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "24",
+    "object_repr": "Tomato",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-02-04T19:15:53.558Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "25",
+    "object_repr": "Summer Squash",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-02-04T19:18:01.452Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Fiddlehead Fern",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-02-04T19:18:11.031Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Grape",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-02-04T19:18:26.341Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Spice Berry",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2026-02-04T19:18:35.496Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Sweet Pea",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2026-02-04T19:19:36.515Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Daffodil",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2026-02-04T19:19:51.734Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "Dandelion",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2026-02-04T19:20:02.728Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Leek",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2026-02-04T19:20:35.468Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "Chantrelle",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2026-02-04T19:20:49.167Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "Common Mushroom",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2026-02-04T19:20:59.681Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "10",
+    "object_repr": "Hazelnut",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2026-02-04T19:21:08.895Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "Blackberry",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2026-02-04T19:21:34.228Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "12",
+    "object_repr": "Purple Mushroom",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2026-02-04T19:21:45.243Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "Red Mushroom",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2026-02-04T19:21:56.696Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "14",
+    "object_repr": "Wild Plum",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2026-02-04T19:22:17.938Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "15",
+    "object_repr": "Crocus",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2026-02-04T19:22:27.518Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Crystal Fruit",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2026-02-04T19:22:35.249Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "Holly",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2026-02-04T19:22:44.039Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "18",
+    "object_repr": "Snow Yam",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2026-02-04T19:23:00.112Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "19",
+    "object_repr": "Winter Root",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2026-02-04T19:23:33.826Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "26",
+    "object_repr": "Powdermelon",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2026-02-04T19:24:11.200Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Tuna",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2026-02-04T19:24:28.386Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Sardine",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2026-02-04T19:24:55.925Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Catfish",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2026-02-04T19:25:16.678Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Anchovy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2026-02-04T19:25:43.058Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Pufferfish",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2026-02-04T19:25:53.412Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Rainbow Trout",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2026-02-04T19:26:16.085Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Salmon",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2026-02-04T19:26:30.605Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Walleye",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 3,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 3,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 3,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 3,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 2,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 2,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 2,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 2,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 7,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 7,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 7,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 7,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 8,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 8,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 8,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 8,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add season",
+    "content_type": 12,
+    "codename": "add_season"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change season",
+    "content_type": 12,
+    "codename": "change_season"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete season",
+    "content_type": 12,
+    "codename": "delete_season"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view season",
+    "content_type": 12,
+    "codename": "view_season"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add foraging item",
+    "content_type": 11,
+    "codename": "add_foragingitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change foraging item",
+    "content_type": 11,
+    "codename": "change_foragingitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete foraging item",
+    "content_type": 11,
+    "codename": "delete_foragingitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view foraging item",
+    "content_type": 11,
+    "codename": "view_foragingitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add fishing item",
+    "content_type": 10,
+    "codename": "add_fishingitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change fishing item",
+    "content_type": 10,
+    "codename": "change_fishingitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete fishing item",
+    "content_type": 10,
+    "codename": "delete_fishingitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view fishing item",
+    "content_type": 10,
+    "codename": "view_fishingitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add farming item",
+    "content_type": 9,
+    "codename": "add_farmingitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change farming item",
+    "content_type": 9,
+    "codename": "change_farmingitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete farming item",
+    "content_type": 9,
+    "codename": "delete_farmingitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view farming item",
+    "content_type": 9,
+    "codename": "view_farmingitem"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$rhC6Ywx6Y4XkLfASFaikgF$1cNnAg3s+dPwHRbc3mPNBoD1UUlfEmJXXoPb2Oiwo/0=",
+    "last_login": "2026-02-04T19:02:36.376Z",
+    "is_superuser": true,
+    "username": "kinley",
+    "first_name": "",
+    "last_name": "",
+    "email": "kinleycummins@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-02-04T19:02:14.067Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "stardew",
+    "model": "farmingitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "stardew",
+    "model": "fishingitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "stardew",
+    "model": "foragingitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "stardew",
+    "model": "season"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "15wb48rvc1fi9dp7x0gwsw6v69k2v33e",
+  "fields": {
+    "session_data": ".eJxVjEsOgjAUAO_y1qaxtEDL0j1naN6vgpqSUFgZ725IWOh2ZjJvSLhvU9qrrmkWGMDC5ZcR8lPLIeSB5b4YXsq2zmSOxJy2mnERfd3O9m8wYZ1ggGiDF2WULvjobJNRrkKxbzNrjkxW-tgpqZXOR26sE87kNLQN9sEpwecLCH85BQ:1vni96:pbExEFq_rWgT-qNV5PqLQHfzt3UYSZMJvtHhos_x1oM",
+    "expire_date": "2026-02-18T19:02:36.384Z"
+  }
+},
+{
+  "model": "stardew.season",
+  "pk": 1,
+  "fields": {
+    "name": "spring"
+  }
+},
+{
+  "model": "stardew.season",
+  "pk": 2,
+  "fields": {
+    "name": "summer"
+  }
+},
+{
+  "model": "stardew.season",
+  "pk": 3,
+  "fields": {
+    "name": "fall"
+  }
+},
+{
+  "model": "stardew.season",
+  "pk": 4,
+  "fields": {
+    "name": "winter"
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 1,
+  "fields": {
+    "name": "Parsnip",
+    "sell_price": 35,
+    "season": 1,
+    "growth_time": 4
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 2,
+  "fields": {
+    "name": "Blue Jazz",
+    "sell_price": 50,
+    "season": 1,
+    "growth_time": 7
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 3,
+  "fields": {
+    "name": "Cauliflower",
+    "sell_price": 175,
+    "season": 1,
+    "growth_time": 12
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 4,
+  "fields": {
+    "name": "Garlic",
+    "sell_price": 60,
+    "season": 1,
+    "growth_time": 4
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 5,
+  "fields": {
+    "name": "Kale",
+    "sell_price": 110,
+    "season": 1,
+    "growth_time": 6
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 6,
+  "fields": {
+    "name": "Potato",
+    "sell_price": 80,
+    "season": 1,
+    "growth_time": 6
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 7,
+  "fields": {
+    "name": "Tulip",
+    "sell_price": 30,
+    "season": 1,
+    "growth_time": 6
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 8,
+  "fields": {
+    "name": "Carrot",
+    "sell_price": 35,
+    "season": 1,
+    "growth_time": 3
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 9,
+  "fields": {
+    "name": "Coffee Bean",
+    "sell_price": 15,
+    "season": 1,
+    "growth_time": 10
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 10,
+  "fields": {
+    "name": "Green Bean",
+    "sell_price": 40,
+    "season": 1,
+    "growth_time": 10
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 11,
+  "fields": {
+    "name": "Strawberry",
+    "sell_price": 120,
+    "season": 1,
+    "growth_time": 8
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 12,
+  "fields": {
+    "name": "Melon",
+    "sell_price": 250,
+    "season": 2,
+    "growth_time": 12
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 13,
+  "fields": {
+    "name": "Poppy",
+    "sell_price": 140,
+    "season": 2,
+    "growth_time": 7
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 14,
+  "fields": {
+    "name": "Radish",
+    "sell_price": 90,
+    "season": 2,
+    "growth_time": 6
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 15,
+  "fields": {
+    "name": "Red Cabbage",
+    "sell_price": 260,
+    "season": 2,
+    "growth_time": 9
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 16,
+  "fields": {
+    "name": "Starfruit",
+    "sell_price": 750,
+    "season": 2,
+    "growth_time": 13
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 17,
+  "fields": {
+    "name": "Summer Spangle",
+    "sell_price": 90,
+    "season": 2,
+    "growth_time": 8
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 18,
+  "fields": {
+    "name": "Wheat",
+    "sell_price": 25,
+    "season": 2,
+    "growth_time": 4
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 19,
+  "fields": {
+    "name": "Blueberry",
+    "sell_price": 50,
+    "season": 2,
+    "growth_time": 13
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 20,
+  "fields": {
+    "name": "Coffee Bean",
+    "sell_price": 15,
+    "season": 2,
+    "growth_time": 10
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 21,
+  "fields": {
+    "name": "Corn",
+    "sell_price": 50,
+    "season": 2,
+    "growth_time": 14
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 22,
+  "fields": {
+    "name": "Hops",
+    "sell_price": 25,
+    "season": 2,
+    "growth_time": 11
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 23,
+  "fields": {
+    "name": "Hot Pepper",
+    "sell_price": 40,
+    "season": 2,
+    "growth_time": 5
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 24,
+  "fields": {
+    "name": "Tomato",
+    "sell_price": 60,
+    "season": 2,
+    "growth_time": 11
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 25,
+  "fields": {
+    "name": "Summer Squash",
+    "sell_price": 45,
+    "season": 2,
+    "growth_time": 6
+  }
+},
+{
+  "model": "stardew.farmingitem",
+  "pk": 26,
+  "fields": {
+    "name": "Powdermelon",
+    "sell_price": 60,
+    "season": 4,
+    "growth_time": 7
+  }
+},
+{
+  "model": "stardew.foragingitem",
+  "pk": 1,
+  "fields": {
+    "name": "Fiddlehead Fern",
+    "sell_price": 90,
+    "season": 2
+  }
+},
+{
+  "model": "stardew.foragingitem",
+  "pk": 2,
+  "fields": {
+    "name": "Grape",
+    "sell_price": 80,
+    "season": 2
+  }
+},
+{
+  "model": "stardew.foragingitem",
+  "pk": 3,
+  "fields": {
+    "name": "Spice Berry",
+    "sell_price": 80,
+    "season": 2
+  }
+},
+{
+  "model": "stardew.foragingitem",
+  "pk": 4,
+  "fields": {
+    "name": "Sweet Pea",
+    "sell_price": 50,
+    "season": 2
+  }
+},
+{
+  "model": "stardew.foragingitem",
+  "pk": 5,
+  "fields": {
+    "name": "Daffodil",
+    "sell_price": 30,
+    "season": 1
+  }
+},
+{
+  "model": "stardew.foragingitem",
+  "pk": 6,
+  "fields": {
+    "name": "Dandelion",
+    "sell_price": 40,
+    "season": 1
+  }
+},
+{
+  "model": "stardew.foragingitem",
+  "pk": 7,
+  "fields": {
+    "name": "Leek",
+    "sell_price": 60,
+    "season": 1
+  }
+},
+{
+  "model": "stardew.foragingitem",
+  "pk": 8,
+  "fields": {
+    "name": "Chantrelle",
+    "sell_price": 160,
+    "season": 3
+  }
+},
+{
+  "model": "stardew.foragingitem",
+  "pk": 9,
+  "fields": {
+    "name": "Common Mushroom",
+    "sell_price": 40,
+    "season": 3
+  }
+},
+{
+  "model": "stardew.foragingitem",
+  "pk": 10,
+  "fields": {
+    "name": "Hazelnut",
+    "sell_price": 90,
+    "season": 3
+  }
+},
+{
+  "model": "stardew.foragingitem",
+  "pk": 11,
+  "fields": {
+    "name": "Blackberry",
+    "sell_price": 20,
+    "season": 3
+  }
+},
+{
+  "model": "stardew.foragingitem",
+  "pk": 12,
+  "fields": {
+    "name": "Purple Mushroom",
+    "sell_price": 250,
+    "season": 3
+  }
+},
+{
+  "model": "stardew.foragingitem",
+  "pk": 13,
+  "fields": {
+    "name": "Red Mushroom",
+    "sell_price": 75,
+    "season": 3
+  }
+},
+{
+  "model": "stardew.foragingitem",
+  "pk": 14,
+  "fields": {
+    "name": "Wild Plum",
+    "sell_price": 80,
+    "season": 3
+  }
+},
+{
+  "model": "stardew.foragingitem",
+  "pk": 15,
+  "fields": {
+    "name": "Crocus",
+    "sell_price": 60,
+    "season": 4
+  }
+},
+{
+  "model": "stardew.foragingitem",
+  "pk": 16,
+  "fields": {
+    "name": "Crystal Fruit",
+    "sell_price": 150,
+    "season": 4
+  }
+},
+{
+  "model": "stardew.foragingitem",
+  "pk": 17,
+  "fields": {
+    "name": "Holly",
+    "sell_price": 80,
+    "season": 4
+  }
+},
+{
+  "model": "stardew.foragingitem",
+  "pk": 18,
+  "fields": {
+    "name": "Snow Yam",
+    "sell_price": 100,
+    "season": 4
+  }
+},
+{
+  "model": "stardew.foragingitem",
+  "pk": 19,
+  "fields": {
+    "name": "Winter Root",
+    "sell_price": 70,
+    "season": 4
+  }
+},
+{
+  "model": "stardew.fishingitem",
+  "pk": 1,
+  "fields": {
+    "name": "Tuna",
+    "sell_price": 100,
+    "season": 4
+  }
+},
+{
+  "model": "stardew.fishingitem",
+  "pk": 2,
+  "fields": {
+    "name": "Sardine",
+    "sell_price": 40,
+    "season": 4
+  }
+},
+{
+  "model": "stardew.fishingitem",
+  "pk": 3,
+  "fields": {
+    "name": "Catfish",
+    "sell_price": 200,
+    "season": 1
+  }
+},
+{
+  "model": "stardew.fishingitem",
+  "pk": 4,
+  "fields": {
+    "name": "Anchovy",
+    "sell_price": 30,
+    "season": 1
+  }
+},
+{
+  "model": "stardew.fishingitem",
+  "pk": 5,
+  "fields": {
+    "name": "Pufferfish",
+    "sell_price": 200,
+    "season": 2
+  }
+},
+{
+  "model": "stardew.fishingitem",
+  "pk": 6,
+  "fields": {
+    "name": "Rainbow Trout",
+    "sell_price": 65,
+    "season": 2
+  }
+},
+{
+  "model": "stardew.fishingitem",
+  "pk": 7,
+  "fields": {
+    "name": "Salmon",
+    "sell_price": 75,
+    "season": 3
+  }
+},
+{
+  "model": "stardew.fishingitem",
+  "pk": 8,
+  "fields": {
+    "name": "Walleye",
+    "sell_price": 105,
+    "season": 3
+  }
+}
+]

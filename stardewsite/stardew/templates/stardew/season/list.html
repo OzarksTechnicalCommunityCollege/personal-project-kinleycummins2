@@ -1,0 +1,53 @@
+{% extends "stardew/base.html" %}
+
+{% block title %}Seasonal Items{% endblock %}
+
+{% block content %}
+<h1>Seasonal Items</h1>
+
+{% for entry in season_data %}
+<div class="season-card {{ entry.season|lower }}">
+    <h2>{{ entry.season }}</h2>
+
+    <!-- Farming section -->
+    <h3>Farming</h3>
+    {% if entry.farming %}
+    <ul>
+        {% for item in entry.farming %}
+        <li>
+            {{ item.name }} — {{ item.growth_time }} days — {{ item.sell_price }}g
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No farming items.</p>
+    {% endif %}
+
+    <!-- Foraging section -->
+    <h3>Foraging</h3>
+    {% if entry.foraging %}
+    <ul>
+        {% for item in entry.foraging %}
+        <li>{{ item.name }} — {{ item.sell_price }}g</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No foraging items.</p>
+    {% endif %}
+
+    <!-- Fishing section -->
+    <h3>Fishing</h3>
+    {% if entry.fishing %}
+    <ul>
+        {% for item in entry.fishing %}
+        <li>{{ item.name }} — {{ item.sell_price }}g</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No fishing items.</p>
+    {% endif %}
+</div>
+<!-- END OF THIS SEASON -->
+{% endfor %}
+
+{% endblock %}

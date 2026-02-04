@@ -1,10 +1,9 @@
 from django.db import models
-# Not currently in use, may implement later?
-from taggit.managers import TaggableManager
+# from taggit.managers import TaggableManager
 
 # Create your models here.
 # Revamped models compared to Module 2 - Now sorting things by season
-# This will be much better for UI purposes and 
+# This will be much better for UI purposes and sorting later
 class Season(models.Model):
     name = models.CharField(
         max_length=10,
@@ -17,7 +16,7 @@ class Season(models.Model):
         ]
     )
     def __str__(self):
-        return self.name.title
+        return self.name.title()
 
 # This class is created to be a 'template' for the other models, hence why it is abstract
 class SeasonalItem(models.Model):
@@ -34,10 +33,11 @@ class SeasonalItem(models.Model):
 # Taking inspiration from an old/outdated helper site and sorting things by forge, farming, and fishing for each season
 class FarmingItem(SeasonalItem):
     growth_time = models.PositiveIntegerField()
-# Not actively being used yet just for testing simplicity
+
+# Will add more to this later
 class ForagingItem(SeasonalItem):
     pass
 
-# Not actively being used yet just for testing simplicity   
+# Will add more to this later  
 class FishingItem(SeasonalItem):
     pass
