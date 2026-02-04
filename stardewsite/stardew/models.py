@@ -1,18 +1,43 @@
 from django.db import models
+# Not currently in use, may implement later?
+from taggit.managers import TaggableManager
 
 # Create your models here.
-# Model for the crops in game
-# Created a base crop class that will be inheritated 
-class BaseCrop(models.Model):
-    name = models.CharField(max_length=60)
-    season = models.CharField(max_length=20)
-    growth_time = models.IntegerField()
+# Revamped models compared to Module 2 - Now sorting things by season
+# This will be much better for UI purposes and 
+class Season(models.Model):
+    name = models.CharField(
+        max_length=10,
+        unique=True,
+        choices=[
+            ("spring", "Spring"),
+            ("summer", "Summer"),
+            ("fall", "Fall"),
+            ("winter", "Winter"),
+        ]
+    )
+    def __str__(self):
+        return self.name.title
+
+# This class is created to be a 'template' for the other models, hence why it is abstract
+class SeasonalItem(models.Model):
+    name = models.CharField(max_length=100)
+    sell_price = models.PositiveIntegerField()
+    season = models.ForeignKey(Season, on_delete=models.CASCADE)
 
     class Meta:
-        # Setting abstract to true will mean that no database table is created for both the parent class and child class
         abstract = True
+
     def __str__(self):
         return self.name
+    
+# Taking inspiration from an old/outdated helper site and sorting things by forge, farming, and fishing for each season
+class FarmingItem(SeasonalItem):
+    growth_time = models.PositiveIntegerField()
+# Not actively being used yet just for testing simplicity
+class ForagingItem(SeasonalItem):
+    pass
 
-class Crop(BaseCrop):
-    sell_price = models.IntegerField()
+# Not actively being used yet just for testing simplicity   
+class FishingItem(SeasonalItem):
+    pass
