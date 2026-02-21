@@ -3,23 +3,28 @@
 <html>
 
 <head>
-    <title>{% block title %}Stardew Crops{% endblock %}</title>
+    <title>{% block title %}Stardew Valley Helper{% endblock %}</title>
     <link href="{% static 'css/stardew.css' %}" rel="stylesheet">
 </head>
 
 <body>
     <!-- Added navigation -->
-    <nav>
-        <a href="{% url'stardew:home' %}">Home</a>
-        <a href="{% url 'stardew:season-list' %}">Seasons</a>
+<nav>
+    <a href="{% url 'stardew:home' %}">Home</a>
+    <a href="{% url 'stardew:season-list' %}">Seasons</a>
 
-    </nav>
-
-    <div id="sidebar">
-        <h2>Stardew Valley Helper</h2>
-        <!-- where I'll put a description later if I keep this sidebar -->
-        <p></p>
-    </div>
+    <span class="nav-right">
+        {% if request.user.is_authenticated %}
+            Hello {{ request.user.first_name|default:request.user.username }},
+            <form action="{% url 'stardew:logout' %}" method="post" style="display:inline;">
+                {% csrf_token %}
+                <button type="submit">Logout</button>
+            </form>
+        {% else %}
+            <a href="{% url 'stardew:login' %}">Login</a>
+        {% endif %}
+    </span>
+</nav>
     <div id="content">
         {% block content %}
         {% endblock %}

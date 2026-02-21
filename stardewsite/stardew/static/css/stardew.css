@@ -11,16 +11,21 @@ body {
     line-height: 1.6;
 }
 
-/* ---------- Navigation ---------- */
+/*  Navigation  */
 nav {
-    background-color: #1b5e20; /* dark green */
-    padding: 1rem 2rem; /* add horizontal padding so links aren’t cramped */
+    background-color: #1b5e20;
+    padding: 1rem 2rem;
     display: flex;
     gap: 1rem;
+    align-items: center; /* vertically center items */
+}
+
+.nav-right {
+    margin-left: auto; /* push this span to the far right */
 }
 
 nav a {
-    color: #e0f7fa; /* sky blue text */
+    color: #e0f7fa;
     text-decoration: none;
     font-weight: bold;
     padding: 0.5rem 1rem;
@@ -29,7 +34,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #66bb6a; /* lighter green hover */
+    background-color: #66bb6a;
 }
 
 /* ---------- Layout ---------- */
@@ -53,11 +58,6 @@ h2 {
     border-radius: 5px;
     color: #fff; /* white text on colored season header */
 }
-
-#sidebar h2 {
-    color: #1b3b36; /* dark green, */
-}
-
 
 /* Season-specific colors */
 .season-card.spring h2 { background-color: #66bb6a; } /* spring green */

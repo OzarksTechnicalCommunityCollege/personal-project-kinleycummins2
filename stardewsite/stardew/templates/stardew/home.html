@@ -1,0 +1,13 @@
+{% extends "stardew/base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h1>Welcome to Stardew Helper!</h1>
+<p>Your go-to tool for managing crops, seasons, and more in Stardew Valley.</p>
+
+<ul>
+    <li><a href="{% url 'stardew:season-list' %}">View Seasons</a></li>
+    <!-- You can add more links here as you create more pages -->
+</ul>
+{% endblock %}
