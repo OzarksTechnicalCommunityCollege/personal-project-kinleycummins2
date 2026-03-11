@@ -125,6 +125,25 @@ button:hover {
     background-color: #66bb6a; /* bright green hover */
 }
 
+/* ---------- Season Nav Buttons ---------- */
+#season-nav {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.season-btn.active {
+    outline: 3px solid #1b3b36;
+    outline-offset: 2px;
+}
+
+/* Season-specific active colors */
+.season-btn[data-season="spring"].active { background-color: #66bb6a; }
+.season-btn[data-season="summer"].active { background-color: #e85c5c; }
+.season-btn[data-season="fall"].active   { background-color: #d8d13f; }
+.season-btn[data-season="winter"].active { background-color: #4dd0e1; }
+
 /* ---------- Responsive ---------- */
 @media (max-width: 768px) {
     #content {
