@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 from .models import Season, FarmingItem, ForagingItem, FishingItem
 from .forms import LoginForm, UserRegistrationForm
 # Create your views here.
-
+# ***********MODULE 6 - NEED TO ADD IN PREFETCHING**********
 # View for the sesason list
 def season_list(request):
     seasons = Season.objects.all()
