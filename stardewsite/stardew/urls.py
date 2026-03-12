@@ -1,6 +1,7 @@
 from django.urls import include, path
 from . import views
 from django.contrib.auth import views as auth_views
+import debug_toolbar
 
 app_name = 'stardew'
 # Defining the url pattern for the app 
@@ -16,6 +17,9 @@ urlpatterns = [
     path('logout/',auth_views.LogoutView.as_view(template_name='stardew/registration/logged_out.html'),name='logout'),
     path('dashboard/', views.dashboard, name='dashboard'),
     path('register/', views.register, name='register'),
+
+    # debug toolbar
+    path('__debug__/', include(debug_toolbar.urls)),
 
     # Temporaily removed, form is not yet fixed with new models 
     # path('crops/add/', views.add_crop, name='add-crop'),
