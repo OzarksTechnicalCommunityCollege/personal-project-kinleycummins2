@@ -16,9 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+import debug_toolbar
 
 # url path for deciding which app handles the request
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('stardew.urls', namespace='stardew'))
+    path('', include('stardew.urls', namespace='stardew')),
+        # debug toolbar
+    path('__debug__/', include(debug_toolbar.urls)),
 ]
