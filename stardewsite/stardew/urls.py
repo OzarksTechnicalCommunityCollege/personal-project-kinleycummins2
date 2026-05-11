@@ -21,6 +21,12 @@ urlpatterns = [
     # debug toolbar
     path('__debug__/', include(debug_toolbar.urls)),
 
+    # displays the full community center checklist
+    path('community-center/', views.community_center, name='community_center'),
+
+    # handles checkbox toggle for a single bundle item (POST only)
+    path('community-center/toggle/<int:item_id>/', views.toggle_item, name='toggle_item'),
+
     # Temporaily removed, form is not yet fixed with new models 
     # path('crops/add/', views.add_crop, name='add-crop'),
 ]

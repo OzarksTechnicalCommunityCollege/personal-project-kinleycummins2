@@ -1,0 +1,48 @@
+{% extends "stardew/base.html" %}
+{% load static %}
+
+{% block title %}Tracker{% endblock %}
+
+{% block content %}
+<h1>Community Center</h1>
+
+{% comment %} show overall progress, tracker.percent_complete() from the view {% endcomment %}
+<p>Overall progress: {{ percent }}% of bundles complete</p>
+
+{% comment %} only show a "great start" message if the user has donated anything
+this uses BundleTracker.__bool__ under the hood {% endcomment %}
+{% if tracker %}
+    <p>Great progress so far!</p>
+{% endif %}
+
+{% comment %} Loop over each bundle, grouped naturally since they come from the DB  {% endcomment %}
+{% for bundle in bundles %}
+    <div>
+        {% comment %} get_room_display() uses Django's built-in choice label lookup {% endcomment %}
+        <h2 id="cc_h2">{{ bundle.get_room_display }}</h2>
+
+        <h3>
+            {{ bundle.name }}
+            {% if bundle.id in completed_bundle_ids %}: Completed!{% endif %}
+        </h3>
+
+        {% comment %} Loop over each required item in this bundle {% endcomment %}
+        {% for bundle_item in bundle.bundle_items.all %}
+            {% comment %} Each checkbox is its own form so it can POST independently  {% endcomment %}
+            <form method="post" action="{% url 'stardew:toggle_item' bundle_item.id %}">
+                {% csrf_token %}
+                <label>
+                        {% comment %} item.id in tracker calls BundleTracker.__contains__ which checks the session list directly {% endcomment %}
+                    <input
+                        type="checkbox"
+                        onchange="this.form.submit()"
+                        {% if bundle_item.id in tracker %}checked{% endif %}
+                    >
+                    {% comment %} bundle_item.item uses the @property on BundleItem to get whichever of farming/foraging/fishing item is set {% endcomment %}
+                    {{ bundle_item.item.name }} x{{ bundle_item.quantity_required }}
+                </label>
+            </form>
+        {% endfor %}
+    </div>
+{% endfor %}
+{% endblock%}
