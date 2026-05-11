@@ -106,6 +106,7 @@ def toggle_item(request, item_id):
 
     return redirect('stardew:community_center')
 
+#  ONLY KEEPING THIS FOR THE PROJECT RESTART AS I MAY DECIDE TO IMPLEMENT IT 
 # Login view
 # def user_login(request):
 #     if request.method == 'POST':
@@ -128,22 +129,3 @@ def toggle_item(request, item_id):
 #         else:
 #             form = LoginForm()
 #             return render(request, 'stardew/login/login.html', {'form':form})
-
-
-# # Function for adding the crop from the form
-# def add_crop(request):
-#     if request.method == "POST":
-#         form = CropForm(request.POST)
-#         # Validating the form
-#         if form.is_valid():
-#             form.save()
-#             url = reverse("stardew:crop-list")
-#             # Technically don't need to use reverse here, could just redirect but wanted to try and implement it
-#             # May end up being changed later
-#             return redirect(url) 
-        
-#     else:
-#         # Showing an empty form
-#         form = CropForm()
-
-#     return render(request, "stardew/crop/add.html", {"form": form})
