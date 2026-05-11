@@ -14,6 +14,7 @@ class BundleTracker:
         if bundle_item_id not in self.session[self.SESSION_KEY]:
             self.session[self.SESSION_KEY].append(bundle_item_id)
             self.session.modified = True
+            self.session.save()
 
 # removes a bundleitem from the donated list (aka unchecking it) and then rebuilds the list
     def undonate(self, bundle_item_id):
@@ -21,6 +22,7 @@ class BundleTracker:
             i for i in self.session[self.SESSION_KEY] if i != bundle_item_id
         ]
         self.session.modified = True
+        self.session.save()
 
 # toggle state of the bundleitem, this is called from the toggle_item view
     def toggle(self, bundle_item_id):

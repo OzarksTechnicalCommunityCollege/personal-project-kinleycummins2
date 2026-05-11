@@ -27,6 +27,4 @@ urlpatterns = [
     # handles checkbox toggle for a single bundle item (POST only)
     path('community-center/toggle/<int:item_id>/', views.toggle_item, name='toggle_item'),
 
-    # Temporaily removed, form is not yet fixed with new models 
-    # path('crops/add/', views.add_crop, name='add-crop'),
 ]
