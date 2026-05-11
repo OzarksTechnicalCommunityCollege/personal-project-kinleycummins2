@@ -1,0 +1,10 @@
+{% extends "stardew/base.html" %}
+{% load static %}
+
+{% block title %}Weather{% endblock %}
+{% block content %}
+<h2 id = "cc_h2">Today's Weather in {{ city }}</h2>
+<p>Conditions: {{ conditions }}</p>
+<p>Temperature: {{ temp }}°F</p>
+<p>Wind Speed: {{ windspeed }} mph</p>
+{% endblock %}

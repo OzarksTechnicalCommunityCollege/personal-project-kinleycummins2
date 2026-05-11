@@ -27,4 +27,7 @@ urlpatterns = [
     # handles checkbox toggle for a single bundle item (POST only)
     path('community-center/toggle/<int:item_id>/', views.toggle_item, name='toggle_item'),
 
+    # MODULE 8 URL PATH 
+    path("weather/", views.weather_view, name="weather"),
+
 ]

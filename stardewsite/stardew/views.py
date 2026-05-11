@@ -6,6 +6,7 @@ from django.contrib.auth.decorators import login_required
 from .models import Season, FarmingItem, ForagingItem, FishingItem, Bundle, BundleItem
 from .forms import LoginForm, UserRegistrationForm
 from .bundle_tracker import BundleTracker
+import requests
 # Create your views here.
 # ***********MODULE 6 - NEED TO ADD IN PREFETCHING**********
 # View for the sesason list
@@ -105,6 +106,41 @@ def toggle_item(request, item_id):
         tracker.toggle(item_id)
 
     return redirect('stardew:community_center')
+
+# MODULE 8 - API IMPLEMENTATION 
+# No Stardew Valley API exists, so for time sake I am just implementating a weather api 
+def weather_view(request):
+    url = "https://api.open-meteo.com/v1/forecast"
+    # Springfield, MO coordinates are hardcoded
+    params = {
+        "latitude": 37.2090,
+        "longitude": -93.2923,
+        "current": "temperature_2m,weathercode,windspeed_10m",
+        "temperature_unit": "fahrenheit",
+        "timezone": "America/Chicago",
+    }
+    response = requests.get(url, params=params)
+    data = response.json()
+    current = data["current"]
+
+    weather_descriptions = {
+        0: "Clear Sky",
+        1: "Mainly Clear", 2: "Partly Cloudy", 3: "Overcast",
+        45: "Foggy", 48: "Icy Fog",
+        51: "Light Drizzle", 53: "Drizzle", 55: "Heavy Drizzle",
+        61: "Light Rain", 63: "Rain", 65: "Heavy Rain",
+        71: "Light Snow", 73: "Snow", 75: "Heavy Snow",
+        80: "Light Showers", 81: "Showers", 82: "Heavy Showers",
+        95: "Thunderstorm", 99: "Thunderstorm with Hail",
+    }
+
+    context = {
+        "city": "Springfield, MO",
+        "temp": current["temperature_2m"],
+        "windspeed": current["windspeed_10m"],
+        "conditions": weather_descriptions.get(current["weathercode"], "Unknown"),
+    }
+    return render(request, "stardew/weather.html", context)
 
 #  ONLY KEEPING THIS FOR THE PROJECT RESTART AS I MAY DECIDE TO IMPLEMENT IT 
 # Login view
