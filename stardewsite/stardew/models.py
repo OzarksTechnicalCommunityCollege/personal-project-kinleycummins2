@@ -15,6 +15,10 @@ class Season(models.Model):
             ("winter", "Winter"),
         ]
     )
+    class Meta:
+        ordering = ["name"]
+        verbose_name = "Season"
+        verbose_name_plural = "Seasons"
     def __str__(self):
         return self.name.title()
 
@@ -26,6 +30,7 @@ class SeasonalItem(models.Model):
 
     class Meta:
         abstract = True
+        ordering = ["season", "name"]
 
     def __str__(self):
         return self.name
@@ -34,14 +39,34 @@ class SeasonalItem(models.Model):
 class FarmingItem(SeasonalItem):
     growth_time = models.PositiveIntegerField()
 
+    class Meta(SeasonalItem.Meta):
+        verbose_name = "Farming Item"
+        verbose_name_plural = "Farming Items"
+        indexes = [
+            models.Index(fields=["season", "name"], name="farmingitem_season_name_idx"),
+        ]
+
 # Will add more to this later
 class ForagingItem(SeasonalItem):
     pass
+
+    class Meta(SeasonalItem.Meta):
+        verbose_name = "Foraging Item"
+        verbose_name_plural = "Foraging Items"
+        indexes = [
+            models.Index(fields=["season", "name"], name="foragingitem_season_name_idx"),
+        ]
 
 # Will add more to this later  
 class FishingItem(SeasonalItem):
     pass
 
+    class Meta(SeasonalItem.Meta):
+        verbose_name = "Fishing Item"
+        verbose_name_plural = "Fishing Items"
+        indexes = [
+            models.Index(fields=["season", "name"], name="fishingitem_season_name_idx"),
+        ]
 # Represents a community center bundle
 class Bundle(models.Model):
 
@@ -56,7 +81,15 @@ class Bundle(models.Model):
  
     name = models.CharField(max_length=100)
     room = models.CharField(max_length=50, choices=ROOM_CHOICES)
- 
+
+    class Meta:
+        ordering = ["room", "name"]
+        verbose_name = "Bundle"
+        verbose_name_plural = "Bundles"
+        indexes = [
+            models.Index(fields=["room"], name="bundle_room_idx"),
+        ]
+
     def __str__(self):
         return self.name
  
@@ -74,7 +107,16 @@ class BundleItem(models.Model):
     # Custom fields on the intermediary table
     quantity_required = models.PositiveIntegerField(default=1)
     donated = models.BooleanField(default=False)
- 
+
+    class Meta:
+        ordering = ["bundle", "donated"]
+        verbose_name = "Bundle Item"
+        verbose_name_plural = "Bundle Items"
+        indexes = [
+            models.Index(fields=["bundle"], name="bundleitem_bundle_idx"),
+            models.Index(fields=["donated"], name="bundleitem_donated_idx"),
+        ]
+        
     def __str__(self):
         item = self.farming_item or self.foraging_item or self.fishing_item
         return f"{item} x{self.quantity_required} -> {self.bundle}"

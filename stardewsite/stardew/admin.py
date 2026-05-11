@@ -23,6 +23,7 @@ admin.site.register(Season)
 # Added in module 8 for exporting csv
 @admin.register(FarmingItem)
 class FarmingItemAdmin(admin.ModelAdmin):
+    #  3.06 custom admin action !!!
     actions = [export_as_csv]
 
 admin.site.register(ForagingItem)
